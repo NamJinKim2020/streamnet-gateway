@@ -29,9 +29,9 @@ spring:
           predicates:
             - Path=
         - id: contentsHistory
-            uri: http://localhost:8086
-            predicates:
-              - Path=/contentsHistories/**
+          uri: http://localhost:8086
+          predicates:
+            - Path=/contentsHistories/**
 
 
       globalcors:
@@ -74,9 +74,9 @@ spring:
           predicates:
             - Path=
         - id: contentsHistory
-            uri: http://contentsHistory:8080
-            predicates:
-              - Path=/contentsHistories/**
+          uri: http://contentsHistory:8080
+          predicates:
+            - Path=/contentsHistories/**
       globalcors:
         corsConfigurations:
           '[/**]':
